@@ -1,0 +1,34 @@
+:root {
+  --cream: #f7f1e6;
+  --cream-deep: #efe5d3;
+  --ink: #3b3428;
+  --muted: #8a7f6c;
+  --gold: #b09566;
+  --rose: #e8a4b4;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { min-height: 100%; background: var(--cream); color: var(--ink); }
+body {
+  font-family: var(--font-serif), Georgia, serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+.script { font-family: "Edwardian Script ITC", var(--font-script), cursive; font-weight: 400; }
+.caps {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: clamp(0.65rem, 2.6vw, 0.8rem);
+}
+button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
+a { color: inherit; text-decoration: none; }
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+@font-face {
+  font-family: "Edwardian Script ITC";
+  src: local("Edwardian Script ITC"), url("/fonts/EdwardianScriptITC.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}

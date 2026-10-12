@@ -1,0 +1,48 @@
+// Edit everything about the invitation here.
+export const wedding = {
+  bride: "Bhavija",
+  groom: "Sibin",
+  tagline: "Together by love, united by grace",
+  heroTagline: "From prayers to promises.",
+  heroMessage: "Together with our families, we invite you to celebrate our special day.",
+  heroSignoff: "Written in love, sealed in prayer.",
+  photo: "/wed.jpeg",
+  // Local date/time of the main day (used for the countdown)
+  dateISO: "2026-11-11T10:00:00",
+  dateLabel: "11 November 2026",
+  weekday: "Wednesday",
+  day: "11",
+  month: "November",
+  year: "2026",
+  time: "10:00 AM",
+  music: "/audio/halsey.mpeg",
+  events: [
+    {
+      weekday: "Tuesday",
+      title: "Bride's Reception",
+      when: "10 November 2026 · 4:30 PM",
+      venue: "Mar Ivanios Parish Hall, Charottukonam",
+      note: "",
+      mapUrl: "https://maps.app.goo.gl/D8uGzQnhSNPwFtF57",
+    },
+    {
+      weekday: "Wednesday",
+      title: "Wedding",
+      when: "11 November 2026 · 10:00 AM",
+      venue: "Holly Cross Church Ayira",
+      note: "ensuing functions will be hosted at Mar Ivanios Parish Hall, Charottukonam",
+      mapUrl: "https://maps.app.goo.gl/E64DKsHw6YGfxg7v6",
+    },
+    {
+      weekday: "Wednesday",
+      title: "Groom's Reception",
+      when: "11 November 2026 · 5:00 PM",
+      venue: "VIDIYAL COMMUNITY HALL CHOOZHAL",
+      note: "",
+      mapUrl: "https://maps.app.goo.gl/rGdPXZ9o8hdQ4g3s6",
+    },
+  ],
+  brideFamily: ["Bhuvanadas", "Vijaya Rani", "Bhaviga", "Jithin"],
+  groomFamily: ["Steephan", "Geetha", "Shaji", "Smitha", "Aaron", "Aradhya"],
+  closing: "We can't wait to celebrate with you.",
+} as const;
