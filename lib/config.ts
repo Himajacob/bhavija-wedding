@@ -27,7 +27,7 @@ export const wedding = {
     },
     {
       weekday: "Wednesday",
-      title: "Wedding",
+      title: "Wedding Ceremony",
       when: "11 November 2026 · 10:00 AM",
       venue: "Holly Cross Church Ayira",
       note: "ensuing functions will be hosted at Mar Ivanios Parish Hall, Charottukonam",
